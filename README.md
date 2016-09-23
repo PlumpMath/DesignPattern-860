@@ -1,0 +1,3 @@
+# DesignPattern
+初始化设计模式学习-过滤器模式
+fliter模式实现了servlet过滤器，对request和response信息做过滤
