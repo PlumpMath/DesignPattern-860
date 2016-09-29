@@ -1,7 +1,7 @@
-package com.db.proxy.test;
+package com.dp.proxy.test;
 
-import com.db.proxy.InvocationHandler;
-import com.db.proxy.Proxy;
+import com.dp.proxy.InvocationHandler;
+import com.dp.proxy.Proxy;
 
 
 public class Client {

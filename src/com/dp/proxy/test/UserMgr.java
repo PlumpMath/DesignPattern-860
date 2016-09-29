@@ -1,4 +1,4 @@
-package com.db.proxy.test;
+package com.dp.proxy.test;
 
 public interface UserMgr {
 	void addUser();

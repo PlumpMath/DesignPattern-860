@@ -1,8 +1,8 @@
-package com.db.proxy.test;
+package com.dp.proxy.test;
 
 import java.lang.reflect.Method;
 
-import com.db.proxy.InvocationHandler;
+import com.dp.proxy.InvocationHandler;
 
 
 public class TransactionHandler implements InvocationHandler {
@@ -14,7 +14,6 @@ public class TransactionHandler implements InvocationHandler {
 		this.target = target;
 	}
 
-	@Override
 	public void invoke(Object o, Method m) {
 		System.out.println("Transaction Start");
 		try {
